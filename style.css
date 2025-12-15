@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background: #1e1a2f;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pong-container {
+  position: relative;
+  width: 90%; max-width: 900px;
+  background: #241f33;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2.5rem; margin-bottom: 12px;
+  color: #e6ccff; letter-spacing: 3px;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.7);
+}
+
+#muteToggle {
+  position: absolute; top: 24px; right: 24px;
+  cursor: pointer;
+}
+
+.score-display {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.7rem; margin-bottom: 10px;
+  color: #e6ccff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+canvas#pong {
+  background: radial-gradient(circle at center, #6a6db0, #e6ccf5);
+  border-radius: 8px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.6);
+  margin-bottom: 16px; border: 2px solid #4b3d84;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.button-group {
+  display: flex; gap: 12px;
+  margin-top: 20px;
+}
+
+.button-group button {
+  background: #6a6db0;
+  color: #f5f5f5;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.25s;
+}
+
+.button-group button:hover {
+  background: #8b5b93;
+}
+
+.difficulty-wrapper {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-left: -5px;
+}
+
+select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  background: #4b3d84;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#muteToggle svg {
+  filter: drop-shadow(0 0 1px #000);
+  transition: fill 0.3s ease;
+}
+
+#countdown {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  color: #f2e2e2;
+  margin-top: -8px;
+  text-align: center;
+  height: 70px;
+}
+
+footer {
+  margin-top: -1px;
+  font-size: 0.95rem;
+  color: #bbb;
+  text-align: center;
+}
+
+@media (max-width:900px) {
+  canvas#pong {
+    width:95vw; height:60vw;
+    max-width:800px; max-height:500px;
+  }
+}
