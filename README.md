@@ -95,22 +95,14 @@ Contributions are always welcome! To help improve this project:
 
 Please ensure the code is clean, well-documented, and tested before submitting.
 
-## License
 
-This project is licensed under the **MIT License**.
-See the [LICENSE](./LICENSE) file for full details.
 
 ## Author
 
-Created and maintained by **KaloudasDev**.
+Created and maintained by **thakuma.Dev**.
 If you find this project useful or fun, feel free to give it a ⭐️ on GitHub!
 
-## Useful Links
 
-* [Email Account](mailto:kaloudasdev@gmail.com)
-* [Discord Account](https://discordapp.com/users/1069279857072160921)
-* [GitHub Repository](https://github.com/KaloudasDev/velvet-pong)
-* [License Information](https://en.wikipedia.org/wiki/MIT_License)  
 
 <br>
 
